@@ -3,7 +3,7 @@ console.log("Jay Shree Ram");
 console.log("This is Formarly AI from background script");
 
 const url = 'https://api.openai.com/v1/chat/completions' // API_END POINT
-const OPENAI_API_KEY = ''; // API KEY FOR OPENAI
+const OPENAI_API_KEY = 'YOUR_API_KEY'; // Replace with your OpenAI API key
 
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
