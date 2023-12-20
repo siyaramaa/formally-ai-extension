@@ -1,7 +1,5 @@
 # Formally AI Chrome Extension
 
-![Extension Icon](logo.png)
-
 Formally AI is a Chrome extension that leverages a simple AI language model to make your text more formal and refined.
 
 ## Features
