@@ -1,0 +1,56 @@
+/* custom.css */
+
+.formal {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    background-image: none;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background-color: #2DD4BF;
+    color: white;
+    z-index: 99999;
+    display: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+  
+  
+  .formal:active {
+    background-color: #14B8A6;
+  }
+  
+  .formal:active::after {
+    opacity: 0.3;
+  }
+  
+  .loading {
+    border-radius: 50%;
+    width: 60px;
+    left: calc(50vw - 25px);
+  }
+  
+  .spinner {
+    display: block;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 8px;
+    left: calc(50% - 17px);
+    background: transparent;
+    box-sizing: border-box;
+    border-top: 4px solid white;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-radius: 100%;
+    animation: spin 0.6s ease-out infinite;
+  }
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
