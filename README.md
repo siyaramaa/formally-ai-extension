@@ -1,10 +1,11 @@
 # Formally AI Chrome Extension
-<div align="center">
-![Formally Demo 1](gif-demo/formally-demo-2.gif)
-</div>
-<div align="center">
-![Formally Demo 2](gif-demo/formally-demo-1.gif)
-</div>
+
+<p align="center">
+  <img src="gif-demo/formally-demo-2.gif" alt="Formally Demo 1">
+</p>
+<p align="center">
+  <img src="gif-demo/formally-demo-1.gif" alt="Formally Demo 2">
+</p>
 
 Formally AI is a Chrome extension that leverages a simple AI language model to make your text more formal and refined.
 
